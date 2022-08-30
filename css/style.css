@@ -264,9 +264,11 @@ main {
 }
 
 .carousel .description {
+  text-align: center;
   font-family: monospace;
   font-size: 17px;
   margin-top: 50px;
+  margin-left: 6vw;
   padding: 10px 20px;
   max-width: 100%;
   border-style: solid;
@@ -277,10 +279,14 @@ main {
 .carousel .description .fa {
   font-size: 30px;
   padding-top: 10px;
+  text-align: center;
+}
+.carousel .description .fa:hover {
+  color: #cccbd0;
 }
 .carousel .description .fa-github {
-  margin-left: 120px;
   color: rgb(31, 31, 31);
+  padding-left: 20px;
 }
 .carousel .description .fa-link {
   padding-left: 20px;
@@ -456,6 +462,7 @@ main .surname {
   font-weight: 200;
   letter-spacing: -10px;
   margin-left: 280px;
+  margin-top: -20px;
 }
 main .short-intro {
   font-family: "Catull";
