@@ -493,6 +493,7 @@ main .button {
   text-align: center;
 }
 main button {
+  margin-left: 20px;
   padding: 5px 20px 5px 20px;
   font-family: Roboto;
   font-size: 0.95rem;
