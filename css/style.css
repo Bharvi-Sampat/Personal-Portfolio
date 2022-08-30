@@ -91,19 +91,19 @@ header a:hover > span {
 .about .intro .designer:hover {
   background: linear-gradient(to left, rgba(222, 134, 124, 0.6980392157) 50%, white 50%) right;
   background-size: 200%;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
   border-radius: 5px;
 }
 .about .intro .cloud:hover {
   background: linear-gradient(to left, rgba(244, 205, 98, 0.6784313725) 50%, white 50%) right;
   background-size: 200%;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
   border-radius: 5px;
 }
 .about .intro .content-creator:hover {
   background: linear-gradient(to left, rgba(107, 198, 154, 0.7568627451) 50%, white 50%) right;
   background-size: 200%;
-  transition: 0.5s ease-out;
+  transition: 0.3s ease-out;
   border-radius: 5px;
 }
 

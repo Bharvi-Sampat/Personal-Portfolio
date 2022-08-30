@@ -1,15 +1,16 @@
 //random files
 var arr = [
-  "about.html#",
-  "projects.html#",
+  "about.html",
+  "projects.html",
   "skills.html#",
-  "experience.html#",
-  "contact.html#",
+  "experience.html",
+  "contact.html",
 ];
 
 function randSite() {
   location.href =
-    "http://127.0.0.1:5500/" + arr[Math.floor(Math.random() * arr.length)];
+    "https://bharvisampat.netlify.app/" +
+    arr[Math.floor(Math.random() * arr.length)];
 }
 
 //Carousel
