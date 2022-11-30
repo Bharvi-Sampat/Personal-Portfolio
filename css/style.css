@@ -536,6 +536,16 @@ main .search {
   .about .intro {
    width: 100%;
   }
+
+  .containers {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 6%;
+  }
+
+  .containers ul {
+    margin-left: 10%;
+  }
 }
 
 main .button {
