@@ -5,10 +5,12 @@
   text-align: center;
   word-spacing: 20px;
 }
+
 .navigation .nav-item {
   display: inline;
   z-index: -1;
 }
+
 .navigation .nav-item .active {
   border-bottom: 3px solid #4285f4;
   border-left: 3px solid #db4437;
@@ -16,13 +18,16 @@
   border-right: 3px solid #0f9d58;
   padding: 10px 20px;
 }
-.navigation .nav-item .active > span {
+
+.navigation .nav-item .active>span {
   color: #7a7a7a;
 }
+
 .navigation .nav-item a {
   text-decoration: none;
 }
-.navigation .nav-item a:hover > span {
+
+.navigation .nav-item a:hover>span {
   color: #7a7a7a;
   transition: 300ms ease-in-out;
 }
@@ -33,10 +38,12 @@ header {
   font-size: 22px;
   margin: 10px 0 0 10px;
 }
+
 header a {
   text-decoration: none;
 }
-header a:hover > span {
+
+header a:hover>span {
   color: #7a7a7a;
   transition: 300ms ease-in-out;
 }
@@ -51,11 +58,12 @@ header a:hover > span {
   align-items: center;
   grid-template-columns: auto auto;
   -moz-column-gap: 50px;
-       column-gap: 50px;
+  column-gap: 50px;
   word-spacing: 2px;
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
 }
+
 .about .display {
   display: inline-block;
   margin: 17px auto;
@@ -63,6 +71,7 @@ header a:hover > span {
   border-radius: 3%;
   width: 26rem;
 }
+
 .about .intro {
   font-size: 18px;
   text-align: left;
@@ -70,42 +79,50 @@ header a:hover > span {
   font-size: 21px;
   width: 50%;
 }
+
 .about .intro .hi {
   font-size: 60px;
 }
+
 .about .intro .less-than {
   font-family: sans-serif;
   font-weight: bold;
   color: #4285f4;
 }
+
 .about .intro .slash {
   font-family: sans-serif;
   font-weight: bold;
   color: #db4437;
 }
+
 .about .intro .greater-than {
   font-family: sans-serif;
   font-weight: bold;
   color: #0f9d58;
 }
+
 .about .intro .web-dev:hover {
   background: linear-gradient(to left, rgba(154, 192, 252, 0.6392156863) 50%, white 50%) right;
   background-size: 200%;
   transition: 0.3s ease-out;
   border-radius: 5px;
 }
+
 .about .intro .designer:hover {
   background: linear-gradient(to left, rgba(222, 134, 124, 0.6980392157) 50%, white 50%) right;
   background-size: 200%;
   transition: 0.3s ease-out;
   border-radius: 5px;
 }
+
 .about .intro .cloud:hover {
   background: linear-gradient(to left, rgba(244, 205, 98, 0.6784313725) 50%, white 50%) right;
   background-size: 200%;
   transition: 0.3s ease-out;
   border-radius: 5px;
 }
+
 .about .intro .content-creator:hover {
   background: linear-gradient(to left, rgba(107, 198, 154, 0.7568627451) 50%, white 50%) right;
   background-size: 200%;
@@ -124,6 +141,7 @@ body {
   font-family: Roboto;
   font-weight: bold;
 }
+
 .images img {
   height: 9rem;
   max-width: 100%;
@@ -177,6 +195,7 @@ body {
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
+
 #carousel div.hideLeft .description {
   opacity: 0;
 }
@@ -190,6 +209,7 @@ body {
   opacity: 0;
   transform: translateY(50%) translateX(-50%);
 }
+
 #carousel div.hideRight .description {
   opacity: 0;
 }
@@ -203,6 +223,7 @@ body {
   left: 30%;
   transform: translateY(50px) translateX(-50%);
 }
+
 #carousel div.prev .description {
   opacity: 0;
 }
@@ -217,6 +238,7 @@ body {
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
 }
+
 #carousel div.prevLeftSecond .description {
   opacity: 0;
 }
@@ -236,6 +258,7 @@ body {
   left: 70%;
   transform: translateY(50px) translateX(-50%);
 }
+
 #carousel div.next .description {
   opacity: 0;
 }
@@ -250,6 +273,7 @@ body {
   transform: translateY(50%) translateX(-50%);
   opacity: 0.7;
 }
+
 #carousel div.nextRightSecond .description {
   opacity: 0;
 }
@@ -271,18 +295,22 @@ body {
   box-shadow: 10px -10px 0 -3px white, 10px -10px, 20px -20px 0 -3px white, 20px -20px;
   background-color: #f2f2f2;
 }
+
 .carousel .description .fa {
   font-size: 30px;
   padding-top: 10px;
   text-align: center;
 }
+
 .carousel .description .fa:hover {
   color: #cccbd0;
 }
+
 .carousel .description .fa-github {
   color: rgb(31, 31, 31);
   padding-left: 20px;
 }
+
 .carousel .description .fa-link {
   padding-left: 20px;
   color: rgb(31, 31, 31);
@@ -293,15 +321,19 @@ body {
   font-size: 20px;
   margin: 60px 20%;
 }
+
 .containers h1 {
   padding-bottom: 5px;
 }
+
 .containers h3 {
   padding-bottom: 5px;
 }
+
 .containers ul {
   list-style-type: circle;
 }
+
 .containers ul li {
   padding-bottom: 10px;
 }
@@ -312,6 +344,7 @@ body {
   margin: 0px 20%;
   padding-bottom: 100px;
 }
+
 .testimonial .description {
   border-style: solid;
   border-width: 3px;
@@ -319,9 +352,11 @@ body {
   background-color: #f2f2f2;
   padding: 20px 20px;
 }
+
 .testimonial .description h3 {
   padding-bottom: 20px;
 }
+
 .testimonial h1 {
   padding-bottom: 50px;
 }
@@ -338,9 +373,11 @@ main .contact-intro {
   font-size: 20px;
   margin: 10px 35%;
 }
+
 .form label {
   line-height: 2;
 }
+
 .form label input,
 .form label textarea {
   font-size: 15px;
@@ -349,9 +386,11 @@ main .contact-intro {
   padding: 15px 10px;
   border: 2px solid;
 }
+
 .form label textarea {
   height: 100px;
 }
+
 .form button {
   font-family: inherit;
   background-color: transparent;
@@ -360,6 +399,7 @@ main .contact-intro {
   border: 2px solid;
   font-size: inherit;
 }
+
 .form button:active {
   background-color: black;
   color: #f2f2f2;
@@ -378,28 +418,36 @@ main .contact-intro {
 .fa-github {
   color: #db4437;
 }
-.fa-github:hover, .fa-github:active {
+
+.fa-github:hover,
+.fa-github:active {
   color: rgba(222, 134, 124, 0.6980392157);
 }
 
 .fa-twitter {
   color: #4285f4;
 }
-.fa-twitter:hover, .fa-twitter:active {
+
+.fa-twitter:hover,
+.fa-twitter:active {
   color: rgba(154, 192, 252, 0.6392156863);
 }
 
 .fa-linkedin {
   color: #0f9d58;
 }
-.fa-linkedin:hover, .fa-linkedin:active {
+
+.fa-linkedin:hover,
+.fa-linkedin:active {
   color: rgba(107, 198, 154, 0.7568627451);
 }
 
 .fa-hashnode {
   color: #f4b400;
 }
-.fa-hashnode:hover, .fa-hashnode:active {
+
+.fa-hashnode:hover,
+.fa-hashnode:active {
   color: rgba(244, 205, 98, 0.6784313725);
 }
 
@@ -409,6 +457,7 @@ main .contact-intro {
     margin: auto;
   }
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -419,10 +468,12 @@ main .contact-intro {
   font-family: Pixel;
   src: url("../catull/slkscre.ttf");
 }
+
 @font-face {
   font-family: Catull;
   src: url("../catull/Catull.woff2");
 }
+
 @font-face {
   font-family: Roboto;
   src: url("../catull/Roboto-Regular.ttf");
@@ -472,6 +523,7 @@ main .short-intro {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
 main .search {
   font-family: Roboto;
   font-weight: lighter;
@@ -490,6 +542,7 @@ main .search {
 main .button {
   text-align: center;
 }
+
 main button {
   margin-left: 20px;
   padding: 5px 20px 5px 20px;
@@ -501,17 +554,22 @@ main button {
   box-shadow: 2px 2px 2px 0px #000;
   cursor: pointer;
 }
+
 main button:active {
   background-color: #7a7a7a;
   transform: translateY(4px);
 }
+
 main button:not(:last-child) {
   margin-right: 30px;
 }
+
 main .bharvi-search {
   text-decoration: none;
   color: #000;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
 
 .skills {
   display: flex;
@@ -523,7 +581,7 @@ main .bharvi-search {
 .skills .item {
   flex: 0 0 25%;
   padding: 10px;
-  margin: 10px ;
+  margin: 10px;
 }
 
 .skills .item img {
@@ -533,7 +591,7 @@ main .bharvi-search {
   width: 6rem;
 }
 
-.skills .item p{
+.skills .item p {
   text-align: center;
   font-size: 1.2rem;
   font-weight: 500;

@@ -1,81 +1,86 @@
 /* Copyright (c) 2022, Author: Albin varghese */
 
 @media screen and (max-width: 600px) {
-    div .name {
-      font-size: 19vw;
-    }
-    div .surname {
-      font-size: 13vw;
-      margin-left: 0;
-      float: right;
-      margin-top: 0;
-      margin-right: 20px;
-    }
-  
-    div .short-intro {
-      padding: 0 10px;
-    }
-  
-    main .search {
-      margin: 6%;
-    }
-  
-    header {
-      font-size:5vw;
-      padding: 5px 0px 5px 0px;
-    }
-  
-    .navigation {
-      overflow: auto;
-      white-space: nowrap;
-      padding: 9px;
-    }
-    .navigation .nav-item {
-      z-index: -1;
-      display: inline-block;
-      color: white;
-      text-align: center;
-      padding: 16px 3px 16px 3px;
-      text-decoration: none;
-    }
-    .navigation .nav-item .active {
-      padding: 7px 20px;
-    }
-  
-    .about .intro {
-     width: 100%;
-    }
-  
-    .containers {
-      font-family: monospace;
-      font-size: 20px;
-      margin: 6%;
-    }
-  
-    .containers ul {
-      margin-left: 10%;
-    }
-  
-    .testimonial {
-      margin: 6%;
-    }
-    .testimonial .description {
-      margin: 4%;
-      border-style: solid;
-      border-width: 3px;
-      box-shadow: 10px -10px 0 -3px white, 10px -10px, 20px -20px 0 -3px white, 20px -20px;
-      background-color: #f2f2f2;
-      padding: 20px 20px;
-    }
-  
-    .form {
-      margin: 6%;
-    }
-    .form button {
-      margin-right: 15px;
-    }
-  
-    .navigation {
-      margin-top: 4vh;
-    }
+  div .name {
+    font-size: 19vw;
   }
+
+  div .surname {
+    font-size: 13vw;
+    margin-left: 0;
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  div .short-intro {
+    padding: 0 10px;
+  }
+
+  main .search {
+    margin: 6%;
+  }
+
+  header {
+    font-size: 5vw;
+    padding: 5px 0px 5px 0px;
+  }
+
+  .navigation {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 9px;
+  }
+
+  .navigation .nav-item {
+    z-index: -1;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 3px 16px 3px;
+    text-decoration: none;
+  }
+
+  .navigation .nav-item .active {
+    padding: 7px 20px;
+  }
+
+  .about .intro {
+    width: 100%;
+  }
+
+  .containers {
+    font-family: monospace;
+    font-size: 20px;
+    margin: 6%;
+  }
+
+  .containers ul {
+    margin-left: 10%;
+  }
+
+  .testimonial {
+    margin: 6%;
+  }
+
+  .testimonial .description {
+    margin: 4%;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 10px -10px 0 -3px white, 10px -10px, 20px -20px 0 -3px white, 20px -20px;
+    background-color: #f2f2f2;
+    padding: 20px 20px;
+  }
+
+  .form {
+    margin: 6%;
+  }
+
+  .form button {
+    margin-right: 15px;
+  }
+
+  .navigation {
+    margin-top: 4vh;
+  }
+}
