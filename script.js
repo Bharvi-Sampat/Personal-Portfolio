@@ -9,7 +9,7 @@ var arr = [
 
 function randSite() {
   location.href =
-    "https://bharvisampat.netlify.app/" +
+    "/" +
     arr[Math.floor(Math.random() * arr.length)];
 }
 
