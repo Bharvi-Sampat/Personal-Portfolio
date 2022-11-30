@@ -356,6 +356,7 @@ main .contact-intro {
 .form button {
   font-family: inherit;
   background-color: transparent;
+  float: right;
   box-shadow: none;
   border: 2px solid;
   font-size: inherit;
@@ -367,7 +368,7 @@ main .contact-intro {
 
 .icons {
   text-align: center;
-  padding-top: 40px;
+  padding: 100px 0px 60px 0px;
 }
 
 .fa-brands {
@@ -558,6 +559,14 @@ main .search {
     background-color: #f2f2f2;
     padding: 20px 20px;
   }
+
+  .form {
+    margin: 6%;
+  }
+  .form button {
+    margin-right: 15px;
+  }
+  
 }
 
 main .button {
