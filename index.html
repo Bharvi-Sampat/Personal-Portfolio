@@ -1,78 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/iconfavicon-16x16.png"
-    />
-    <link rel="manifest" href="icon/site.webmanifest" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>
-      Bharvi Sampat - Front-end Developer, Cloud Engineer & Content Creator
-    </title>
-  </head>
-  <body>
-    <main>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Mobile View Responsive -->
+  <link rel="stylesheet" href="css/style-sm.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/iconfavicon-16x16.png" />
+  <link rel="manifest" href="icon/site.webmanifest" />
+
+  <title>
+    Bharvi Sampat - Front-end Developer, Cloud Engineer & Content Creator
+  </title>
+</head>
+
+<body>
+  <main>
+    <div>
       <div>
         <h1 class="name">
-          <span class="blue">B</span><span class="red">h</span
-          ><span class="yellow">a</span><span class="blue">r</span
-          ><span class="green">v</span><span class="red">i</span>
+          <span class="blue">B</span><span class="red">h</span><span class="yellow">a</span><span
+            class="blue">r</span><span class="green">v</span><span class="red">i</span>
         </h1>
         <h2 class="surname">Sampat</h2>
-        <h2 class="short-intro">Get to know Bharvi better!</h2>
-        <h2 class="search">
-          I'm Bharvi Sampat, <span class="auto-input"></span>
-        </h2>
-
-        <div class="button">
-          <a href="about.html" class="bharvi-search"
-            ><button>Bharvi Search</button></a
-          >
-          <a href="#" onclick="randSite();"
-            ><button>I'm feeling lucky!</button></a
-          >
-        </div>
+        <div style="clear: both;"></div>
       </div>
-    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="script.js"></script>
+      <h2 class="short-intro">Get to know Bharvi better!</h2>
+      <h2 class="search">
+        I'm Bharvi Sampat, <span class="auto-input"></span>
+      </h2>
 
-    <script>
-      let typed = new Typed(".auto-input", {
-        strings: [
-          "Front-end Developer.",
-          "Designer.",
-          "Cloud Engineer.",
-          "Technical Content Creator.",
-        ],
-        typeSpeed: 20,
-        backSpeed: 50,
-        loop: true,
-      });
+      <div class="button">
+        <a href="about.html" class="bharvi-search"><button>Bharvi Search</button></a>
+        <a href="#" onclick="randSite();"><button>I'm feeling lucky!</button></a>
+      </div>
+    </div>
+  </main>
 
-      $(document).ready(function () {
-        $(".dropdown-toggle").dropdown();
-      });
-    </script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+
+  <script>
+    let typed = new Typed(".auto-input", {
+      strings: [
+        "Front-end Developer.",
+        "Designer.",
+        "Cloud Engineer.",
+        "Technical Content Creator.",
+      ],
+      typeSpeed: 20,
+      backSpeed: 50,
+      loop: true,
+    });
+
+    $(document).ready(function () {
+      $(".dropdown-toggle").dropdown();
+    });
+  </script>
+</body>
+
 </html>
