@@ -42,8 +42,8 @@ header a:hover > span {
 }
 
 .about {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 8%;
+  margin-right: 8%;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: monospace;
@@ -53,16 +53,22 @@ header a:hover > span {
   -moz-column-gap: 50px;
        column-gap: 50px;
   word-spacing: 2px;
+  display: flex; 
+  flex-wrap: wrap;
 }
 .about .display {
-  height: 60%;
-  max-width: 200%;
+  display: inline-block;
+  margin: 17px auto;
+  text-align: center;
+  border-radius: 3%;
+  width: 26rem;
 }
 .about .intro {
   font-size: 18px;
   text-align: left;
   line-height: 1.5;
   font-size: 21px;
+  width: 50%;
 }
 .about .intro .hi {
   font-size: 60px;
@@ -503,6 +509,32 @@ main .search {
 
   main .search {
     margin: 6%;
+  }
+
+  header {
+    font-size:6vw;
+    padding: 5px 0px 5px 0px;
+  }
+
+  .navigation {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 9px;
+  }
+  .navigation .nav-item {
+    z-index: -1;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 3px 16px 3px;
+    text-decoration: none;
+  }
+  .navigation .nav-item .active {
+    padding: 7px 20px;
+  }
+
+  .about .intro {
+   width: 100%;
   }
 }
 
