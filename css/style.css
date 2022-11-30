@@ -450,6 +450,7 @@ main .name {
   font-weight: bolder;
   text-shadow: 6px 1px 3px #cccbd0;
 }
+
 main .surname {
   color: #7a7a7a;
   text-align: center;
@@ -460,6 +461,7 @@ main .surname {
   margin-left: 280px;
   margin-top: -20px;
 }
+
 main .short-intro {
   font-family: "Catull";
   font-size: 1.2rem;
@@ -482,6 +484,28 @@ main .search {
   margin: 1% 30% 2% 30%;
   font-size: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+  div .name {
+    font-size: 19vw;
+  }
+  div .surname {
+    font-size: 13vw;
+    margin-left: 0;
+    float: right;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  div .short-intro {
+    padding: 0 10px;
+  }
+
+  main .search {
+    margin: 6%;
+  }
+}
+
 main .button {
   text-align: center;
 }
