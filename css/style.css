@@ -594,3 +594,30 @@ main .bharvi-search {
   text-decoration: none;
   color: #000;
 }/*# sourceMappingURL=style.css.map */
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10%;
+}
+
+.skills .item {
+  flex: 0 0 25%;
+  padding: 10px;
+  margin: 10px ;
+}
+
+.skills .item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6rem;
+}
+
+.skills .item p{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
